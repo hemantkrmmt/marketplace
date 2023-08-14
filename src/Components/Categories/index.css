@@ -1,0 +1,48 @@
+:root {
+  padding: 0px;
+  margin: 0px;
+}
+
+.categories-container {
+  margin: 0 auto;
+  background-color: lightcyan;
+  max-width: 300px;
+  height: 40px;
+  display: flex;
+}
+
+.selections-container {
+  width: calc(100% - 20px);
+  display: flex;
+}
+
+.dropdown-container {
+  display: flex;
+  transform: rotate(90deg);
+  position: relative;
+  right: 0;
+}
+.options {
+  padding-top: 40px;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.category + .category {
+  margin-top: 5px;
+}
+
+.selected {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+
+.selected + .selected {
+  margin-right: 5px;
+}
